@@ -1,5 +1,7 @@
 # File Management App
 
+## [Live link](https://file-manager-c1cp.onrender.com/)
+
 ![Node.js Logo](https://nodejs.org/static/images/logo.svg)
 
 Welcome to my File Management App! This project allows users to create, view, rename, and delete files of various types (txt, html, css, js, md) with a great user experience. It is built using Node.js, Express, EJS, and the `fs` module.
@@ -51,5 +53,16 @@ To get started with the File Management App, follow these steps:
 
 
 ## Screen shots : 
+### home page -
+![Home Page](./public/images/homeone.PNG)
+### home page with files -
+![Home Page](./public/images/home%20page.PNG)
+### create route -
+![Home Page](./public/images/create%20route.PNG)
+### Rename route -
+![Home Page](./public/images/rename%20route.PNG)
+### Delete route -
+![Home Page](./public/images/delete%20route.PNG)
 
-![Home Page](URL or path to the image)
+
+### explore for more fun 😎
