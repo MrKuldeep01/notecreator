@@ -22,7 +22,6 @@ app.get("/create", (req, res) => {
   res.render("create");
 });
 app.post("/create", (req, res) => {
-  console.log(req.body);
   let head = req.body.heading;
   let filetype = req.body.filetype;
   let desc = req.body.desc;
