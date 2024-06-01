@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= filename %> - Mr kumar</title>
+    <link rel="web icon" href="../images/icon.png">
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="hero w-full h-screen bg-zinc-300">
+      <center>
+        <h2
+        class="font-bold text-white text-2xl bg-zinc-900 border-b-2 border-dotted p-2 mb-4"
+        >
+        File Opener
+        </h2>
+      </center>
+      <a
+        href="/create"
+        class="p-2 m-4 rounded-sm bg-black text-white border-x-8"
+      >
+        Create file
+      </a>
+      <a
+        href="/"
+        class="p-2 m-4 rounded-sm bg-black text-white border-x-8"
+      >
+        All Files
+      </a>
+
+        <div
+          class="file w-1/2 m-auto block h-auto rounded-xl p-2 my-4 bg-gray-500 border-y-2 border-zinc-800 border-solid text-white font-bold"
+        >
+          <h2 class="text-xl p-4 my-4"><%= filename %></h2>
+            <span class="text-xl font-base p-6 m-2"> <%= filedata %></span>
+      <span class="flex w-full h-1/3 justify-between content-center mt-4 p-2">
+          <a href="/delete/<%=filename%>" class="text-red-300 text-xs p-4">delete file</a>
+          <a href="/rename/<%=filename%>" class="text-red-300 text-xs p-4">rename file</a>
+        </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rename Note - Mr kumar</title>
+    <link rel="web icon" href="../images/icon.png">
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="hero w-screen h-screen bg-zinc-300">
+        <center>
+            <h2 class="font-bold text-white text-2xl bg-zinc-900 border-b-2 border-dotted p-2 mb-4">
+                Rename File
+            </h2>
+        </center>
+      <a
+        href="/create"
+        class="p-2 m-4 rounded-sm bg-black text-white border-x-8"
+      >
+        Create file
+      </a>
+      <a
+        href="/"
+        class="p-2 m-4 rounded-sm bg-black text-white border-x-8"
+      >
+        Files
+      </a>
+
+      <form class="m-4 p-6 flex align-middle gap-4 flex-wrap rounded-xl" action="/rename" method="post">
+        <input class='outline-none px-4 py-2 m-2 w-1/2 bg-gray-200 rounded-md' type="text" name="oldname" placeholder="heading here" value="<%=filename%>"/>
+        <input class='outline-none px-4 py-2 m-2 w-1/2 bg-gray-200 rounded-md h-auto' type="text" name="newname" id="newname" placeholder="new name please..." />
+        <input class='outline-none px-4 py-2 m-2 text-white rounded-md bg-blue-600' type="submit" value="create file" />
+      </form>
+      </div>
+    </div>
+    <script src="../javascripts/rename.js"></script>
+  </body>
+</html>
