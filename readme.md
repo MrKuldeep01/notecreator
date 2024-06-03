@@ -66,3 +66,12 @@ To get started with the File Management App, follow these steps:
 
 
 ### explore for more fun 😎
+
+
+## Comming Features
+
+- **Sharing Files:** Share option for files.
+- **Log in:** Authentication for files.
+- **Download Files:** Download option for files.
+- **Improvments:** Further improvments time to time.
+  # Thank you 😉🚀👩‍💻
